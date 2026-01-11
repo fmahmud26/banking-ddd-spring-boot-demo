@@ -1,0 +1,6 @@
+package com.example.banking.infrastructure.persistence;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface SpringDataAccountRepository extends JpaRepository<AccountEntity, String> {
+}
