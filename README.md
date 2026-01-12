@@ -6,20 +6,6 @@
 
 A demonstration banking application built with **Domain-Driven Design (DDD)** and **Hexagonal Architecture** principles using Spring Boot. This project showcases clean architecture, separation of concerns, and rich domain models.
 
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Architecture](#-architecture)
-- [Technology Stack](#-technology-stack)
-- [Prerequisites](#-prerequisites)
-- [Getting Started](#-getting-started)
-- [Running the Application](#-running-the-application)
-- [API Documentation](#-api-documentation)
-- [Project Structure](#-project-structure)
-- [Design Patterns](#-design-patterns)
-- [Database](#-database)
-- [Testing](#-testing)
-
 ## ✨ Features
 
 - **Account Management**: Create and manage bank accounts
