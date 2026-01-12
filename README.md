@@ -3,7 +3,6 @@
 [![Java](https://img.shields.io/badge/Java-25-orange.svg)](https://www.oracle.com/java/)
 [![Spring Boot](https://img.shields.io/badge/Spring%20Boot-4.0.1-brightgreen.svg)](https://spring.io/projects/spring-boot)
 [![Maven](https://img.shields.io/badge/Maven-3.x-blue.svg)](https://maven.apache.org/)
-[![License](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 A demonstration banking application built with **Domain-Driven Design (DDD)** and **Hexagonal Architecture** principles using Spring Boot. This project showcases clean architecture, separation of concerns, and rich domain models.
 
