@@ -20,8 +20,6 @@ A demonstration banking application built with **Domain-Driven Design (DDD)** an
 - [Design Patterns](#-design-patterns)
 - [Database](#-database)
 - [Testing](#-testing)
-- [Contributing](#-contributing)
-- [License](#-license)
 
 ## ✨ Features
 
@@ -38,22 +36,22 @@ This project follows **Domain-Driven Design (DDD)** principles with **Hexagonal 
 
 ```
 ┌─────────────────────────────────────────────────────────┐
-│                    Interfaces Layer                      │
-│              (REST Controllers, DTOs)                     │
+│                    Interfaces Layer                     │
+│              (REST Controllers, DTOs)                   │
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
-│                 Application Layer                        │
-│              (Use Cases, Services)                       │
+│                 Application Layer                       │
+│              (Use Cases, Services)                      │
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
-│                   Domain Layer                           │
+│                   Domain Layer                          │
 │        (Entities, Value Objects, Domain Logic)          │
 └──────────────────────┬──────────────────────────────────┘
                        │
 ┌──────────────────────▼──────────────────────────────────┐
-│              Infrastructure Layer                        │
+│              Infrastructure Layer                       │
 │    (Persistence, External Services, Adapters)           │
 └─────────────────────────────────────────────────────────┘
 ```
@@ -374,16 +372,6 @@ The project includes:
 ./mvnw test -Dtest=BankingApplicationTests
 ```
 
-## 🤝 Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
 ### Code Style
 
 - Follow Java naming conventions
@@ -391,20 +379,10 @@ Contributions are welcome! Please follow these steps:
 - Write meaningful commit messages
 - Add tests for new features
 
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## 🙏 Acknowledgments
 
 - Built with [Spring Boot](https://spring.io/projects/spring-boot)
 - Inspired by Domain-Driven Design principles by Eric Evans
 - Architecture based on Hexagonal Architecture (Ports & Adapters) by Alistair Cockburn
-
-## 📞 Support
-
-For questions, issues, or suggestions, please open an issue in the repository.
-
----
 
 **Happy Coding! 🚀**
