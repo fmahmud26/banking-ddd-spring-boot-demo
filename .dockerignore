@@ -1,0 +1,60 @@
+# =========================
+# Version Control
+# =========================
+.git
+.gitignore
+
+# =========================
+# Build outputs
+# =========================
+target/
+build/
+dist/
+out/
+
+# =========================
+# IDE / Editor files
+# =========================
+.idea/
+.vscode/
+*.iml
+*.log
+
+# =========================
+# OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Logs
+# =========================
+logs/
+*.log
+
+# =========================
+# Environment / Secrets
+# =========================
+.env
+.env.*
+*.pem
+*.key
+*.p12
+
+# =========================
+# Docker files (avoid recursion)
+# =========================
+Dockerfile
+docker-compose.yml
+.dockerignore
+
+# =========================
+# Node (if project contains frontend)
+# =========================
+node_modules/
+
+# =========================
+# Maven / Gradle caches
+# =========================
+.mvn/
+.gradle/
